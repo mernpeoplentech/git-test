@@ -1,3 +1,5 @@
+import Blog from "./components/Blog";
+
 function App() {
   return (
     <main style={{ padding: 10 }}>
@@ -7,12 +9,8 @@ function App() {
         aspernatur ratione, amet tenetur, dolore perferendis illum ad at
         aliquam, quis qui sapiente! Minus, est necessitatibus!
       </p>
-      <h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod unde sed
-        repellat maiores necessitatibus ab neque, omnis, veritatis, repellendus
-        eveniet alias rerum? Quidem laboriosam necessitatibus qui eligendi, id
-        minus fugiat.
-      </h2>
+      <Blog />
+      <h2>Conclusion</h2>
     </main>
   );
 }
