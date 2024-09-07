@@ -1,16 +1,14 @@
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <main style={{ padding: 10 }}>
-      <h1>Hello I am MD Sujon Islam</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
-        aspernatur ratione, amet tenetur, dolore perferendis illum ad at
-        aliquam, quis qui sapiente! Minus, est necessitatibus!
-      </p>
+    <main className="max-w-screen-xl mx-auto" style={{ padding: 10 }}>
+      <Header />
+
       <Blog />
-      <h2>Conclusion</h2>
+      <Footer />
     </main>
   );
 }
