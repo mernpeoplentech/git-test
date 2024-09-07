@@ -12,6 +12,7 @@ function App() {
         <h3 className="tech">Latest Technologies</h3>
       </div>
       <Blog />
+      <footer>All rights reserved @ dummy blog</footer>
     </main>
   );
 }

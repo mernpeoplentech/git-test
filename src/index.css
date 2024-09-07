@@ -41,7 +41,7 @@ div {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 20px;
-  background-color: rgb(186, 233, 233)
+  background-color: rgb(209, 232, 232)
 }
 .nav ul {
   display: flex;
@@ -49,7 +49,18 @@ div {
   gap: 20px;
   li {
     list-style: none;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
+    cursor: pointer;
+    
   }
+  li:hover{
+    color: green;
+    transition: all;
+    transition-duration: 3sec;
+  }
+}
+footer{
+  text-align: center;
+  margin-top: 90px;
 }
