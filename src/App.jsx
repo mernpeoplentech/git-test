@@ -1,7 +1,7 @@
 function App() {
   return (
     <main>
-      <div className="text-center bg-purple-500">My Todo app will go here</div>
+      <div style={{textAlign:"center"}}>My Todo app will go here</div>
     </main>
   );
 }
