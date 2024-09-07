@@ -1,6 +1,6 @@
 import Blog from "./components/Blog";
 
-function App() {
+export default function App() {
   return (
     <main style={{ padding: 10 }}>
       <h1>Apurbo Tudu</h1>
