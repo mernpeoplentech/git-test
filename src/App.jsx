@@ -2,15 +2,14 @@ import Blog from "./components/Blog";
 
 function App() {
   return (
-    <main style={{ padding: 10 }}>
-      <h1>Muhammad Shourav</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
-        aspernatur ratione, amet tenetur, dolore perferendis illum ad at
-        aliquam, quis qui sapiente! Minus, est necessitatibus!
-      </p>
+    <main className="bodyStyle">
+      <div className="title">
+        <img src="./src/assets/logoipsum-327.svg" alt="" />
+        <h1>Muhammad Shourav</h1>
+      </div>
+      <p>MERN Stack Developer</p>
+
       <Blog />
-      <h2>Conclusion</h2>
     </main>
   );
 }

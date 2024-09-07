@@ -8,8 +8,29 @@
   h3 {
     color: green;
     font-size: 25px;
+    margin-left: 40px;
   }
   p {
     font-size: 20px;
+    margin-left: 5px;
+  }
+}
+
+.bodyStyle {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: 1px solid black;
+  p {
+    margin-left: 60px;
+  }
+}
+
+.title {
+  display: flex;
+  gap: 3px;
+  padding-left: 10px;
+  p {
+    text-align: center;
   }
 }
