@@ -3,20 +3,13 @@ import Blog from "./components/Blog";
 function App() {
   return (
     <main style={{ padding: 10 }}>
-      <h1> Shahin Alom i AM A S</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
-        aspernatur ratione, amet tenetur, dolore perferendis illum ad at
-        aliquam, quis qui sapiente! Minus, est necessitatibus!
-      </p>
-      <div>
-        <h4>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-          recusandae.
-        </h4>
+          <div>
+      <h1> Shahin Alom</h1>
+
+  
       </div>
       <Blog />
-      <h2>Conclusion</h2>
+      <h2>Thank You</h2>
     </main>
   );
 }

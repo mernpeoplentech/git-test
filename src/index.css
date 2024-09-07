@@ -6,10 +6,29 @@
   padding: 20px;
   border-radius: 10px;
   h3 {
+    background-color: rgb(182, 178, 178);
     color: green;
     font-size: 25px;
   }
   p {
     font-size: 20px;
+    text-align: start;
   }
+}
+main{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 500px;
+width: 500px;
+h2{
+  color: rgb(32, 247, 32);
+  background: gray;
+}
+}
+h1{
+  font-size: xx-large;
 }
