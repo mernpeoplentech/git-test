@@ -1,19 +1,17 @@
 import Blog from "./components/Blog";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <main style={{ padding: 10 }}>
+      <Navbar />
       <div>
-        <h4>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-          recusandae.
-        </h4>
+        <h2>Welcome To Dummy Blog</h2>
+      </div>
+      <div>
+        <h3 className="tech">Latest Technologies</h3>
       </div>
       <Blog />
-        <p>
-          amet consectetur adipisicing elit. Sequi rerum quaerat optio sapiente
-          maiores officiis explicabo saepe rem veritatis praesentium.
-        </p>
     </main>
   );
 }
