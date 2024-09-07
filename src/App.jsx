@@ -1,4 +1,5 @@
 import Blog from "./components/Blog";
+import Navbar from "./components/Navbar";
 
 function App() {
 
@@ -31,19 +32,15 @@ function App() {
 
   return (
     <main style={{ padding: 10 }}>
-      
-      <div >
-        <h4 style={{display: 'flex', justifyContent: 'center', fontSize: '36px', color: 'darkblue' }}>
-          My Blogs
-        </h4>
-      <div style={{display: 'grid',   gap: '12px'}}>
-        {
-          blogs.map(item => (
-            <Blog blog={item}/>
-          ))
-        }
+      <Navbar />
+      <div>
+        <h2>Welcome To Dummy Blog</h2>
       </div>
+      <div>
+        <h3 className="tech">Latest Technologies</h3>
       </div>
+      <Blog />
+      <footer>All rights reserved @ dummy blog</footer>
     </main>
   );
 }
