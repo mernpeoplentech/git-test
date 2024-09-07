@@ -34,3 +34,10 @@
     text-align: center;
   }
 }
+.ul {
+  display: flex;
+  gap: 5px;
+  li {
+    list-style: none;
+  }
+}
