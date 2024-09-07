@@ -1,14 +1,18 @@
 import Blog from "./components/Blog";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className="max-w-screen-xl mx-auto" style={{ padding: 10 }}>
-      <Header />
-
+    <main style={{ padding: 10 }}>
+      <Navbar />
+      <div>
+        <h2>Welcome To Dummy Blog</h2>
+      </div>
+      <div>
+        <h3 className="tech">Latest Technologies</h3>
+      </div>
       <Blog />
-      <Footer />
+      <footer>All rights reserved @ dummy blog</footer>
     </main>
   );
 }
