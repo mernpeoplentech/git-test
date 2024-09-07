@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div className="blog">
-      <h3>Our Dummy Blog</h3>
+      <h3>Mugdho Blog</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dicta
         rem, similique vel ex magnam ea eligendi neque eum optio qui animi quam
