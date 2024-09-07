@@ -14,7 +14,7 @@ const Blog = () => {
           expedita maxime, aperiam velit!
         </p>
       </div>
-      <div>
+      <div className="bg-indigo-100 p-4">
         {" "}
         <h3>MD Sujon Islam Blog</h3>
         <p>
