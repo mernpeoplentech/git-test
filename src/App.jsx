@@ -7,6 +7,7 @@ function App() {
         aspernatur ratione, amet tenetur, dolore perferendis illum ad at
         aliquam, quis qui sapiente! Minus, est necessitatibus!
       </p>
+      <h2>Conclusion</h2>
     </main>
   );
 }
