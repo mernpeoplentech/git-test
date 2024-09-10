@@ -4,9 +4,12 @@ import { FiGithub } from "react-icons/fi";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { IoLogoInstagram, IoMail } from "react-icons/io5";
+import { Link, useLocation } from "react-router-dom";
+
 const Footer = () => {
+  const { pathname } = useLocation();
   return (
-    <Container className="w-full lg:w-[90%] text-gray-300 flex flex-col gap-y-5">
+    <Container className="w-full lg:w-[90%] text-gray-300 flex flex-col items-center gap-y-5">
       <p className=" text-sm text-center">
         I am a passionate Frontend Web Developer with expertise in the MERN
         stack (MongoDB, Express, React, Node.js) and a solid foundation in HTML,
@@ -52,6 +55,12 @@ const Footer = () => {
           <FaYoutube />
         </a>
       </div>
+      <Link
+        to={pathname === "/" ? "/todo" : "/"}
+        className=" underline underline-offset-1"
+      >
+        {pathname === "/" ? "todo page" : "back to home"}
+      </Link>
     </Container>
   );
 };

@@ -4,9 +4,11 @@ import { useDispatch } from "react-redux";
 import { addtodo } from "../redux/TodoSlice";
 import toast from "react-hot-toast";
 import TodoList from "./TodoList";
+
 const InputForm = () => {
   const [todo, setTodo] = useState("");
   const dispatch = useDispatch();
+
   const HandleTodo = (e) => {
     e.preventDefault();
     if (todo === "") {
